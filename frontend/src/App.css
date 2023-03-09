@@ -1,0 +1,9 @@
+:root {
+  --outside-margin: 2rem;
+}
+
+#root {
+  max-height: calc(100vh - var(--outside-margin) * 2);
+  max-width: 60rem;
+  width: 100%;
+}
